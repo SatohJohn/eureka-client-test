@@ -1,0 +1,9 @@
+spring.application.name: scheduler
+
+eureka:
+  client:
+    enabled: false
+
+logging:
+  file: ./logs/application.log
+  level.root: INFO

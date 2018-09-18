@@ -1,0 +1,10 @@
+spring.application.name: server
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:11801/eureka/
+
+logging:
+  file: ./logs/application.log
+  level.root: INFO

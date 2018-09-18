@@ -1,0 +1,5 @@
+rootProject.name = 'eureka-test'
+include 'client'
+include 'server'
+include 'scheduler'
+
